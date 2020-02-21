@@ -1,34 +1,67 @@
 body {
   background-color: #e7e6e1;
   color: #474744;
-  font-family: "Crimson Pro", serif;
+  font-family: "EB Garamond", serif;
   margin: 0 auto;
-  max-width: 50em;
-  padding: 4em 1em;
+  text-align: center;
 }
 
 h1 {
-  color: #537791;
-  font-family: "Cedarville Cursive", cursive;
-  font-size: 45px;
   margin-top: 1em;
-  text-align: center;
-}
-p {
-  font-size: 17px;
-  line-height: 1.5;
-}
-li {
-  font-size: 17px;
-  list-style: none;
-}
-img {
-  border-radius: 50%;
-  float: left;
-  margin: 0 30px 30px 0;
-  width: 200px;
+  padding-top: 1em;
 }
 a {
-  color: #537791;
-  font-size: 17px;
+  color: #007944;
+  font-size: 18px;
+}
+
+.hlavicka {
+  background-image: url(img2.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+  text-align: center;
+}
+.hlavicka h1 {
+  color: #ededed;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 4.5em;
+}
+
+.hlavicka img {
+  border-radius: 50%;
+  display: inline-block;
+  width: 200px;
+}
+
+.menu {
+  background-color: #007944;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  color: #ededed;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+.menu a:hover,
+.menu a:focus {
+  background-color: #71a95a;
+}
+.omne,
+.kontakt {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 1em 1em;
 }

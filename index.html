@@ -15,36 +15,52 @@ Vizitku ostyluj pomocí CSS:
 - Další vlastnosti dle vlastního uvážení
 
 Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
+
+
+Zadání druhého nepovinného úkolu
+
+Ještě jednou budeme pracovat s vaší vizitkou z minulého týdne.
+Commitujte a pushujte do stejného repozitáře, až budete s výsledkem spokojeni, napište do commit message "Hotovo".
+- Rozdělte prezentaci na dvě stránky – tj. vytvořte nový HTML soubor, například jedna stránka může být "O mně" a druhá "Kontakt".
+- Udělejte horizontální menu mezi stránkami (jak jsme si ukazovali v lekci).
+- Vylepšete vizuálně prezentaci (např. podle Webdesign in 4 Minutes):
+přidejte rámečky,
+omezte maximální šířku stránky aby text nebyl od krajů do krajů.
 -->
+
 <!DOCTYPE html>
 <html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nguyen Thuy An</title>
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap" rel="stylesheet">
-    <link rel="icon" href="favicon.ico">
+    <link
+      href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500i,600,700&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
-      Nguyen Thuy An
-    </h1>
-    <img src="foto/profil.jpg" alt="An_foto" />
-    <p>
-      Narodila jsem se v Hanoji a vyrůstala v Praze. Vystudovala
-      jsem Přírodovědeckou fakultu UK a pak tam i pracovala. 
-      <ul>
-        <li>Ráda vařím a čtu. </li>
-        <li>Nerada o sobě píšu. 😊</li>
-      </ul>  
-        
-    </p>
-    <p>
-      <a href="https://www.facebook.com/antemarada">Odkaz na můj FB profil</a> <br>
+    <header class="hlavicka">
+      <h1>Nguyen Thuy An</h1>
+      <img src="foto/profil2.jpg" alt="Nguyen Thuy An profilové foto" />
+    </header>
 
-      <a href="mailto:ms.nguyenthuyan@gmail.com">ms.nguyenthuyan@gmail.com</a>
-    </p>
+    <ul class="menu">
+      <li>
+        <a target="_blank" rel="noreferrer noopener" href="omne.html">O mně</a>
+      </li>
+
+      <li>
+        <a target="_blank" rel="noreferrer noopener" href="kontakt.html"
+          >Kontakt</a
+        >
+      </li>
+    </ul>
   </body>
 </html>
